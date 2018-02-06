@@ -23,3 +23,5 @@ def Register_new_user(object1):
     driver.find_element_by_name(Locators.confirmpwd).send_keys("admin1")
     sleep(2)
     driver.find_element_by_name(Locators.submitregister).click()
+    
+    print("Hello")
